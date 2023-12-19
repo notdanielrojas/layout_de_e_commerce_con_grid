@@ -6,6 +6,7 @@
 body {
   color: white;
   font-family: "Raleway", monospace;
+ 
 }
 
 nav {
@@ -42,15 +43,6 @@ aside p {
 main {
   grid-area: main;
   background-color: #f5f5f5;
-}
-
-footer {
-  display: flex;
-  grid-area: footer;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  background-color: #f99417;
 }
 
 .grid-container {
@@ -138,4 +130,16 @@ button {
   font-size: larger;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  grid-area: footer;
+  justify-content: center;
+  align-items: center;
+  background-color: #f99417;
+}
+
+footer i {
+  padding: 10px;
 }

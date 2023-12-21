@@ -1,13 +1,14 @@
+/* Universal */
 * {
   margin: 0;
   padding: 0;
 }
-
+/* Body */
 body {
   color: white;
   font-family: "Raleway", monospace;
 }
-
+/* Sección superior */
 nav {
   display: flex;
   justify-content: center;
@@ -16,11 +17,11 @@ nav {
   padding: 16px 0px 16px 0px;
   background-color: #4d4c7d;
 }
-
+/* Título NAV */
 nav h1 {
   font-size: xx-large;
 }
-
+/* Sección lateral */
 aside {
   display: flex;
   flex-direction: column;
@@ -28,22 +29,22 @@ aside {
   grid-area: aside;
   background-color: #363062;
 }
-
+/* Título sección lateral */
 aside h1 {
   font-size: 32px;
   padding: 16px;
 }
-
+/* Ítems sección alteral */
 aside p {
   font-size: larger;
   padding: 16px 0px 16px 0px;
 }
-
+/* Sección Principal */
 main {
   grid-area: main;
   background-color: #f5f5f5;
 }
-
+/* Contenedor principal */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 6fr;
@@ -55,7 +56,7 @@ main {
   height: 100vh;
   box-sizing: border-box;
 }
-
+/* Contenedor Cartas */
 .grid-cards {
   display: grid;
   align-items: center;
@@ -68,7 +69,7 @@ main {
   height: 100%;
   box-sizing: border-box;
 }
-
+/* Propiedad carta */
 .card {
   display: flex;
   flex-direction: column;
@@ -77,7 +78,7 @@ main {
   border: none;
   box-sizing: border-box;
 }
-
+/* Propiedad imagen carta  */
 .card-img {
   width: 40%;
   height: 40%;
@@ -86,43 +87,19 @@ main {
   object-fit: cover;
   box-sizing: border-box;
 }
-
-.html {
-  background-color: #e54d26;
-}
-
-.css {
-  background-color: #0277bd;
-}
-
-.js {
-  background-color: #d3bb37;
-}
-
-.react {
-  background-color: #00ccff;
-}
-
-.node {
-  background-color: #8cc84b;
-}
-
-.sql {
-  background-color: #336791;
-}
-
+/* Título carta */
 .titulo {
   font-size: 24px;
   padding-top: 16px;
   color: black;
 }
-
+/* Precio carta */
 .precio {
   font-size: 24px;
   padding: 12px 0px 12px 0px;
   color: black;
 }
-
+/* Botón carta */
 button {
   border: none;
   cursor: pointer;
@@ -133,7 +110,31 @@ button {
   box-sizing: border-box;
   border-radius: 5px;
 }
-
+/* Color Botón */
+.html {
+  background-color: #e54d26;
+}
+/* Color Botón */
+.css {
+  background-color: #0277bd;
+}
+/* Color Botón */
+.js {
+  background-color: #d3bb37;
+}
+/* Color Botón */
+.react {
+  background-color: #00ccff;
+}
+/* Color Botón */
+.node {
+  background-color: #8cc84b;
+}
+/* Color Botón */
+.sql {
+  background-color: #336791;
+}
+/* Pié de página */
 footer {
   display: flex;
   grid-area: footer;
@@ -141,7 +142,7 @@ footer {
   align-items: center;
   background-color: #f99417;
 }
-
+/* Íconos de pié de página */
 footer i {
   padding: 10px;
 }

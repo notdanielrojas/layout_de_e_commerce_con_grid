@@ -60,7 +60,6 @@ main {
 .grid-cards {
   display: grid;
   align-items: center;
-  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
